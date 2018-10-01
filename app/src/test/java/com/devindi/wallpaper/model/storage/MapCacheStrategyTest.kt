@@ -9,6 +9,7 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.koin.test.AutoCloseKoinTest
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.robolectric.shadows.ShadowEnvironment
@@ -21,7 +22,7 @@ import java.io.File
  */
 @RunWith(RobolectricTestRunner::class)
 @Config(manifest = Config.NONE)
-class MapCacheStrategyTest {
+class MapCacheStrategyTest : AutoCloseKoinTest() {
 
     private val INTERNAL_PATH = "INTERNAL_PATH"
     private val EXTERNAL_PATH = "EXTERNAL_PATH"
