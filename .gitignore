@@ -44,6 +44,7 @@ captures/
 .idea/markdown-navigator.xml
 .idea/markdown-exported-files.xml
 .idea/codeStyles
+.idea/misc.xml
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
